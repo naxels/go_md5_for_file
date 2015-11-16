@@ -1,2 +1,10 @@
-# go_md5_for_file
-Open file, get MD5 of file and return it, and have it be concurrency compatible
+# MD5 grabber for file written in Golang
+
+Written to use as a package in your app to concurrently get the MD5 hash of a file location
+
+This package will:
+* Open the file
+* Grab the MD5 of the file
+* Return both the filename, size and MD5 of the file
+
+The block calculation code piece comes from Socket Loop
